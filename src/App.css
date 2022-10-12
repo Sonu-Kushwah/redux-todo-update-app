@@ -1,0 +1,46 @@
+ul,ol{
+  list-style-type:none;
+}
+.header{
+  padding: 7px 0;
+  background: rgb(35, 47, 62);
+}
+.header h3{
+  color: white;
+  text-align: center;
+}
+.todoApp {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 15px;
+}
+.todoApp h4{
+  text-align: center;
+}
+button{
+  background-color: rgb(238, 82, 83);
+  padding: 8px 14px;
+  border: none;
+}
+.items-box{
+  display: flex;
+  background: #ebebeb;
+  justify-content: space-between;
+  padding: 6px 8px;
+  margin-top: 6px;
+}
+.action i{
+  margin-right: 5px;
+}
+.fa-trash:before {
+  content: "\f1f8";
+  color: red;
+}
+.fa-eye:before {
+  color: #539b91;
+  content: "\f06e";
+}
+.item span{
+  font-weight: bold;
+}
